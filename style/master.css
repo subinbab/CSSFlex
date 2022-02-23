@@ -1,0 +1,30 @@
+@media screen and (max-width: 400px) {
+  .Parent {
+    background-color: blue;
+  }
+}
+
+.Parent {
+  background-color: #2e5e5e;
+  display: flex;
+  justify-content: left;
+  height: 600px;
+  flex-wrap: wrap;
+}
+.Parent .child1, .Parent .child2, .Parent .child3 {
+  width: 200px;
+  height: 200px;
+}
+.Parent .child1 {
+  background-color: red;
+  order: 3;
+}
+.Parent .child2 {
+  background-color: yellow;
+  order: 2;
+}
+.Parent .child3 {
+  background-color: green;
+  flex: 1;
+  order: 1;
+}/*# sourceMappingURL=master.css.map */

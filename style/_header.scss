@@ -1,0 +1,36 @@
+
+.Parent{
+    background-color: rgb(46, 94, 94);
+    display:flex;
+    justify-content: left;
+    height: calc($div-height*3); 
+    flex-wrap: wrap;
+    
+    
+    
+    .child1,.child2,.child3{
+        
+        width: $div-width;
+        height: $div-height;
+        
+
+    }
+    .child1{
+        background-color: red;
+        order: 3;
+       
+
+    }
+    .child2{
+        background-color: yellow;
+        order: 2;
+        
+    }
+    .child3{
+        background-color: green;
+        flex: 1;
+        order: 1;
+        
+
+    }
+}
